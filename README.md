@@ -18,11 +18,11 @@ Checking vehicle's status can be done using http://localhost:9000/api/vehicles/{
 
 ___
 
-If vehicleid is missing from the sample, error will be displayed.
-If recordedAt is missing from the sample, 0 will be put as recordedAt.
-If currentSpeed is missing, it will be set to 0.
-If vehicle has speed but it is charging, vehicle speed will be set to 0 and alert note will be displayed. 
-If charging status is missing, it will be set to 0 (not charging).
-If odometer is missing, vehicle status will display the last odometer available, same with driving time.
+* If vehicleid is missing from the sample, error will be displayed.
+* If recordedAt is missing from the sample, 0 will be put as recordedAt.
+* If currentSpeed is missing, it will be set to 0.
+* If vehicle has speed but it is charging, vehicle speed will be set to 0 and alert note will be displayed. 
+* If charging status is missing, it will be set to 0 (not charging).
+* If odometer is missing, vehicle status will display the last odometer available, same with driving time.
 
 Fraud alert: if odometer is smaller that previous and the sample has been recorded after the previous one, alert of possible fraud or error is displayed.
