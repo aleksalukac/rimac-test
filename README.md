@@ -26,5 +26,6 @@ ___
 * If odometer is missing, vehicle status will display the last odometer available, same with driving time.
 
 Fraud alert: if odometer is smaller that previous and the sample has been recorded after the previous one, alert of possible fraud or error is displayed.
+
 ---
 Test examples are available in [input examples](input-examples) directory. Input 5 should not work because of the same recordedAt value as one of the previous examples.
